@@ -2,7 +2,7 @@
 import click
 
 @click.command()
-@click.option('--name', default = 'IDS 721', help = 'This is your name')
+@click.option('--name', default = 'Grader', help = 'This is your name')
 @click.option('--repeat', default = 1, help = 'This is the number of times you will be greeted')
 def hello(repeat, name):
     '''This script greets you.'''
